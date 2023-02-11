@@ -1,0 +1,27 @@
+body {
+ font-family: Georgia, 'Times New Roman', Times, serif;
+ 
+}
+
+.container {
+ display: inline-block;
+ position: relative;
+}
+
+img {
+ width: 100vw;
+ height: 100vh;
+}
+
+.container .text {
+ z-index: 1;
+ position: absolute;
+ text-align: center;
+ font-family: Georgia;
+ margin: 0 auto;
+ left: 0;
+ right: 0;
+ top: 30%;
+ color: white;
+ width: 70%;
+}
