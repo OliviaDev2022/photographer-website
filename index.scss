@@ -1,0 +1,56 @@
+body, html {
+ font-family: "Playfair Display", serif;
+ width: 100vw;
+ height: 100vh;
+ background-color: black;
+}
+
+.img-responsive {
+ position: relative;
+ width: 99vw;
+ height: 99vh;
+}
+
+h1, h2 { 
+ z-index: 1;
+ position: absolute;
+ margin: 0 auto;
+ padding-left: 4%;
+ font-size: 40px;
+ top: 50%;
+ color: white;
+ width: 80%;
+}
+
+h2 {
+ font-size: 32px;
+ top: 60%;
+}
+
+.pages {
+ position: absolute;
+ margin: 0 auto;
+ padding-left: 4%;
+ font-size: 18px;
+ top: 4%;
+ align-content:space-between;
+}
+
+a {
+ font-family :Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; //changer la police
+ color: rgb(203, 225, 5);
+}
+
+.icons {
+ position: absolute;
+ padding-left: 95%;
+ bottom: 5%;
+ width : 15%;
+ height : 15%;
+}
+
+.facebook, .instagram {
+ color: rgb(255, 255, 226);
+}
+
+
