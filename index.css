@@ -2,53 +2,143 @@ body, html {
   font-family: "Playfair Display", serif;
   width: 100vw;
   height: 100vh;
-  background-color: black;
 }
 
 .img-responsive {
-  position: relative;
-  width: 99vw;
-  height: 99vh;
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
 }
 
 h1, h2 {
   z-index: 1;
   position: absolute;
   margin: 0 auto;
-  padding-left: 4%;
-  font-size: 40px;
-  top: 50%;
-  color: white;
+  padding-left: 1%;
+  font-size: 22px;
+  top: 30%;
+  color: black;
   width: 80%;
 }
 
 h2 {
-  font-size: 32px;
-  top: 60%;
+  font-size: 13px;
+  top: 35%;
 }
 
-.pages {
-  position: absolute;
-  margin: 0 auto;
-  padding-left: 4%;
-  font-size: 18px;
-  top: 4%;
-  align-content: space-between;
-}
-
-a {
+.nav-link {
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
-  color: rgb(203, 225, 5);
+  color: rgb(173, 192, 8);
+  text-decoration: none;
 }
 
 .icons {
   position: absolute;
-  padding-left: 95%;
+  padding-left: 90%;
   bottom: 5%;
-  width: 15%;
-  height: 15%;
 }
 
 .facebook, .instagram {
-  color: rgb(255, 255, 226);
+  color: rgba(2, 6, 138, 0.708);
+  width: 70%;
+  height: 70%;
+}
+
+@media screen and (min-width: 320px) {
+  h1, h2 {
+    left: 1%;
+    font-size: 22px;
+    top: 35%;
+  }
+  h2 {
+    font-size: 13px;
+    top: 40%;
+  }
+}
+@media screen and (min-width: 375px) {
+  .icons {
+    bottom: 3%;
+  }
+}
+@media screen and (min-width: 428px) {
+  h1, h2 {
+    font-size: 26px;
+  }
+  h2 {
+    font-size: 16px;
+  }
+  .icons {
+    bottom: 5%;
+  }
+  .facebook, .instagram {
+    width: 90%;
+    height: 90%;
+  }
+}
+@media screen and (min-width: 576px) {
+  h1, h2 {
+    font-size: 30px;
+    top: 40%;
+  }
+  h2 {
+    font-size: 20px;
+    top: 48%;
+  }
+  .icons {
+    padding-left: 92%;
+    bottom: 10%;
+  }
+}
+@media screen and (min-width: 768px) {
+  .nav-link {
+    font-size: 20px;
+  }
+  h1, h2 {
+    font-size: 35px;
+    top: 35%;
+  }
+  h2 {
+    font-size: 25px;
+    top: 40%;
+  }
+  .icons {
+    bottom: 8%;
+  }
+  .facebook, .instagram {
+    width: 100%;
+    height: 100%;
+  }
+}
+@media screen and (min-width: 900px) {
+  h1 {
+    top: 43%;
+  }
+  h2 {
+    top: 53%;
+  }
+}
+@media screen and (min-width: 1024px) {
+  h1 {
+    font-size: 42px;
+    top: 35%;
+  }
+  h2 {
+    top: 40%;
+    font-size: 30px;
+  }
+  .nav-link {
+    font-size: 22px;
+  }
+  .facebook, .instagram {
+    width: 125%;
+    height: 125%;
+  }
+}
+@media screen and (min-width: 1200px) {
+  h2 {
+    top: 45%;
+  }
+  .icons {
+    bottom: 12%;
+  }
 }/*# sourceMappingURL=index.css.map */
