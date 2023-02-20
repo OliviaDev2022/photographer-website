@@ -1,0 +1,70 @@
+body, html {
+ background-color: rgb(247, 229, 206);
+ font-family: "Playfair Display", serif;
+ width: 100vw;
+ height: 100vh;
+ scroll-behavior: auto;
+}
+
+/*MOBILE FIRST POUR MIN 320px
+
+CREER LE FILTRE EN JS
+
+*/
+
+.nav-link {
+ font-family :Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; 
+ color: rgb(173, 192, 8);
+ text-decoration: none;
+}
+
+.photos a {
+ display: inline-flex;
+ justify-content: space-between;
+ color: rgba(2, 6, 138, 0.708);
+ font-size: 8px;
+ margin-top: 24%;
+ margin-left: 3px;
+ padding-bottom: 5%;
+ text-decoration : none;
+
+}
+
+.photos a:hover {
+ color: black;
+ text-decoration:underline;
+ transition: 2.7s;
+}
+
+h1 { 
+ position: absolute;
+ top: 15%;
+ margin-left: 30%;
+ font-size: 14px;
+ color: black;
+}
+
+.icons {
+ position: sticky;
+ padding-left: 87%;
+ bottom: 6%;
+
+}
+
+.facebook, .instagram {
+ color: rgba(2, 6, 138, 0.708);
+ width : 50%;
+ height : 50%;
+}
+
+img {
+ max-width : 30%;
+ max-height : 20%;
+ display: inline-flex;
+ text-align: center;
+ margin-top: 1%;
+}
+
+#toutesphotos {
+ margin-left: 1px;
+}
