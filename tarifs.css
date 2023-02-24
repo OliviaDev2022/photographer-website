@@ -1,0 +1,84 @@
+body {
+ background-color: rgba(164, 151, 134, 0.137);
+ font-family: "Playfair Display", serif;
+ width: 97vw;
+ height: 100vh;
+ scroll-behavior: auto;
+ text-align: center;
+}
+
+/*MOBILE FIRST FOR MIN 320px */
+
+.nav-link {
+ font-family :Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; 
+ color: rgb(173, 192, 8);
+ text-decoration: none;
+}
+
+.logo {
+ position: relative;
+ margin-left: 5%;
+ height : 10vh;
+ width: 25vw;
+}
+
+h1 { 
+ margin-top: 8%;
+ font-size: 20px;
+ padding-bottom: 1rem;
+ color: black;
+}
+
+.icons {
+ position: sticky;
+ padding-left: 90%;
+ bottom: 6%;
+}
+
+.facebook, .instagram {
+ color: rgba(2, 6, 138, 0.708);
+ width : 40%;
+ height : 40%;
+}
+
+.card {
+ position: relative;
+ display: inline-flex;
+ width: 16rem;
+ margin-bottom: 10%;
+}
+
+h2, .card-footer{
+ font-size: 14px;
+ font-weight: bold;
+}
+
+.card-text {
+ font-size: 14px;
+}
+
+.card-footer {
+ height: 1rem;
+ padding-bottom: 12%;
+}
+
+@media screen and (min-width: 428px) {
+
+ .logo {
+  height : 10vh;
+  width: 30vw;
+ }
+}
+
+@media screen and (min-width: 576px) {
+
+ .icons {
+  padding-left: 92%;
+ }
+
+ .nav-link {
+  padding-bottom: 12%;
+ }
+}
+
+/* gérer l'alignement des cards min-width 600px
