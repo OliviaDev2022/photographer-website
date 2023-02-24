@@ -1,7 +1,7 @@
-body, html {
+body {
  background-color: rgba(164, 151, 134, 0.137);
  font-family: "Playfair Display", serif;
- width: 100vw;
+ width: 98vw;
  height: 100vh;
  scroll-behavior: auto;
 }
@@ -20,7 +20,7 @@ body, html {
  color: rgba(2, 6, 138, 0.708);
  font-size: 8px;
  margin-top: 7%;
- margin-left: 1%;
+ margin-left: 0%;
  padding-bottom: 5%;
  text-decoration : none;
 }
@@ -32,7 +32,7 @@ body, html {
 }
 
 h1 { 
- margin-top: 8%;
+ margin-top: 5%;
  text-align: center;
  font-size: 14px;
  color: black;
@@ -58,15 +58,22 @@ img {
  margin-top: 1%;
 }
 
+.logo {
+ position: relative;
+ margin-left: 35%;
+ height : 10vh;
+ width: 100vw;
+}
+
 @media screen and (min-width: 375px) {
 
  .photos a {
   font-size: 10px;
-  margin-left: 3.5px;
  }
 
  .icons {
-  padding-left: 92%;
+  padding-left: 88%;
+  position: fixed;
  }
 }
 
@@ -74,11 +81,12 @@ img {
 
  .photos a {
   font-size: 11px;
-  margin-left: 2%;
+  margin-left: 1%;
  }
 
  .icons {
   padding-left: 91%;
+  position: fixed;
  }
 
  .facebook, .instagram {
@@ -113,6 +121,7 @@ img {
 
  .nav-link {
   font-size: 13px;
+  padding-bottom: 15%;
  }
 
  h1 { 
@@ -121,6 +130,11 @@ img {
 
  .photos a {
   margin-left: 4.5%;
+ }
+
+ .facebook, .instagram {
+  width : 70%;
+  height : 70%;
  }
 }
 
@@ -139,8 +153,8 @@ img {
  }
  
  .facebook, .instagram {
-  width : 35%;
-  height : 35%;
+  width : 85%;
+  height : 85%;
  }
 }
 
@@ -155,12 +169,17 @@ img {
  }
 
  .photos a {
-  margin-left: 7.5%;
+  font-size: 13px;
  }
  
  .facebook, .instagram {
-  width : 35%;
-  height : 35%;
+  width : 95%;
+  height : 95%;
+ }
+
+ .logo {
+  height : 28vh;
+  width: 100vw;
  }
 }
 
@@ -181,8 +200,17 @@ img {
  }
  
  .facebook, .instagram {
-  width : 30%;
-  height : 30%;
+  width : 95%;
+  height : 95%;
+ }
+
+ .logo {
+  height : 20vh;
+  width: 100vw;
+ }
+
+ .icons {
+  padding-left: 90%;
  }
 }
 
@@ -205,13 +233,17 @@ img {
  }
  
  .facebook, .instagram {
-  width : 35%;
-  height : 35%;
+  width : 95%;
+  height : 95%;
  }
 
  .icons {
   padding-left: 95%;
   bottom: 6%;
+ }
+
+ .logo {
+  height : 30vh;
  }
 }
 
@@ -229,12 +261,12 @@ img {
  }
  
  .facebook, .instagram {
-  width : 48%;
-  height : 48%;
+  width : 95%;
+  height : 95%;
  }
 
  .icons {
-  padding-left: 96%;
+  padding-left: 92%;
   bottom: 6%;
  }
 }
