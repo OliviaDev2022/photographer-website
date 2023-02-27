@@ -3,7 +3,7 @@ body {
  font-family: "Playfair Display", serif;
  width: 97vw;
  height: 100vh;
- scroll-behavior: auto;
+ scroll-behavior: auto; 
  text-align: center;
 }
 
@@ -17,7 +17,6 @@ body {
 
 .logo {
  position: relative;
- margin-left: 5%;
  height : 10vh;
  width: 25vw;
 }
@@ -30,22 +29,22 @@ h1 {
 }
 
 .icons {
- position: sticky;
+ position:fixed;
  padding-left: 90%;
  bottom: 6%;
 }
 
 .facebook, .instagram {
  color: rgba(2, 6, 138, 0.708);
- width : 40%;
- height : 40%;
+ width : 50%;
+ height : 50%;
 }
 
 .card {
  position: relative;
- display: inline-flex;
- width: 16rem;
+ max-width: 15rem;
  margin-bottom: 10%;
+ align-self: center;
 }
 
 h2, .card-footer{
@@ -59,7 +58,7 @@ h2, .card-footer{
 
 .card-footer {
  height: 1rem;
- padding-bottom: 12%;
+ padding-bottom: 15%;
 }
 
 @media screen and (min-width: 428px) {
@@ -68,17 +67,120 @@ h2, .card-footer{
   height : 10vh;
   width: 30vw;
  }
+
+ .card {
+  max-width: 18rem;
+ }
+
+ .facebook, .instagram {
+  width : 60%;
+  height : 60%;
+ }
+}
+
+@media screen and (min-width: 540px) {
+
+ .icons {
+  padding-left: 88%;
+ }
+
+ .facebook, .instagram {
+  width : 70%;
+  height : 70%;
+ }
 }
 
 @media screen and (min-width: 576px) {
 
- .icons {
-  padding-left: 92%;
- }
-
  .nav-link {
   padding-bottom: 12%;
  }
+
+ .card {
+  max-width: 25rem;
+ }
+
+ .card-footer {
+  height: 1rem;
+  padding-bottom: 10%;
+ }
+
+ h2, .card-footer{
+  font-size: 16px;
+ }
 }
 
-/* gérer l'alignement des cards min-width 600px
+@media screen and (min-width: 800px) {
+
+ .icons {
+  padding-left: 90%;
+ }
+
+ .facebook, .instagram {
+  width : 80%;
+  height : 80%;
+ }
+}
+
+@media screen and (min-width: 960px) {
+
+ .logo {
+  height : 20vh;
+  width: 25vw;
+ }
+}
+
+@media screen and (min-width: 1024px) {
+
+ .nav-link {
+  padding-top: 10%;
+  font-size: 18px;
+ }
+
+ .card {
+  max-width: 30rem;
+ }
+
+ h1 {
+  font-size: 26px;
+ }
+}
+
+@media screen and (min-width: 1280px) {
+
+ .card {
+  max-width: 45rem;
+  margin-bottom: 5%;
+ }
+
+ h1 {
+  font-size: 30px;
+  margin-top: 5%;
+ }
+
+ .logo {
+  height : 25vh;
+  width: 25vw;
+ }
+
+ .facebook, .instagram {
+  width : 90%;
+  height : 90%;
+ }
+
+ h2, .card-footer{
+  font-size: 20px;
+ }
+ 
+ .card-text {
+  font-size: 18px;
+ }
+
+ .card-footer{
+  font-size: 22px;
+ }
+ 
+ .card-footer {
+  padding-bottom: 8%;
+ }
+}
