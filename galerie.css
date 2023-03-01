@@ -28,11 +28,11 @@ body {
 .photos a:hover {
  color: black;
  text-decoration:underline;
- transition: 2.7s;
+ transition: 0.1s;
 }
 
 h1 { 
- margin-top: 5%;
+ margin-top: 10%;
  text-align: center;
  font-size: 14px;
  color: black;
@@ -51,18 +51,11 @@ h1 {
 }
 
 img {
- max-width : 30%;
- max-height : 20%;
+ width : 110px;
+ height : 80px;
  display: inline-flex;
  text-align: center;
- margin-top: 1%;
-}
-
-.logo {
- position: relative;
- margin-left: 35%;
- height : 10vh;
- width: 100vw;
+ padding-top: 3px;
 }
 
 @media screen and (min-width: 375px) {
@@ -98,9 +91,27 @@ img {
   top: 15%;
   font-size: 15px;
  }
+
+ img {
+  transition: transform .2s; 
+  width: 150px;
+  height: 100px;
+  margin: 2;
+ }
+ 
+ img:hover {
+  transform: scale(1.5);
+ }
 }
 
 @media screen and (min-width: 540px) {
+
+ img {
+  transition: transform .2s; 
+  width: 150px;
+  height: 100px;
+  margin: 0;
+ }
 
  .photos a {
   margin-left: 3%;
@@ -141,7 +152,8 @@ img {
 @media screen and (min-width: 768px) {
 
  .nav-link {
-  font-size: 15px;
+  font-size: 16px;
+  padding-top: 10%;
  }
 
  h1 { 
@@ -155,6 +167,10 @@ img {
  .facebook, .instagram {
   width : 85%;
   height : 85%;
+ }
+
+ img:hover {
+  transform: scale(2);
  }
 }
 
@@ -172,14 +188,14 @@ img {
   font-size: 13px;
  }
  
+ img {
+  width : 190px;
+  height : 150px;
+ }
+
  .facebook, .instagram {
   width : 95%;
   height : 95%;
- }
-
- .logo {
-  height : 28vh;
-  width: 100vw;
  }
 }
 
@@ -192,6 +208,12 @@ img {
 
  h1 { 
   font-size: 25px;
+  margin-top: 2%;
+ }
+
+ img {
+  width : 220px;
+  height : 180px;
  }
 
  .photos a {
@@ -203,12 +225,6 @@ img {
   width : 95%;
   height : 95%;
  }
-
- .logo {
-  height : 20vh;
-  width: 100vw;
- }
-
  .icons {
   padding-left: 90%;
  }
@@ -232,6 +248,15 @@ img {
   padding-bottom: 3%;
  }
  
+ img {
+  width : 280px;
+  height : 250px;
+ }
+
+ img:hover {
+  transform: scale(1.5);
+ }
+
  .facebook, .instagram {
   width : 95%;
   height : 95%;
@@ -240,10 +265,6 @@ img {
  .icons {
   padding-left: 95%;
   bottom: 6%;
- }
-
- .logo {
-  height : 30vh;
  }
 }
 
