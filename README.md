@@ -1,5 +1,4 @@
-# photographer-website
-Evaluation en Cours de Formation 
+Evaluation en Cours de Formation / DEVELOPPER LA PARTIE FRONT-END D'UNE APPLICATION WEB
 
 CONTEXTE DU PROJET 
 
@@ -15,14 +14,15 @@ Contraintes du projet :
 - Tout le front peut être écrit ou généré via des générateurs de sites statiques.
 
 DEMARRAGE : 
-Depot GitHub
-Déploiement sur netlify en ligne sur : {ajouter le lien}
 
-MODIFICATION DES IMAGES : 
-Modification des images sur site en ligne sur : {     }
-Methode : Dans media, remplacer image existante par une autre.
+Cloner le repo sur votre poste : 
 
 
+git clone https://github.com/OliviaDev2022/photographer-website.git
 
 
+ou Consulter le site en ligne : 
+
+
+https://cantincharles-portefolio.netlify.app/
 
