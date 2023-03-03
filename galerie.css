@@ -56,7 +56,39 @@ img {
  display: inline-flex;
  text-align: center;
  padding-top: 3px;
+ transition: transform .2s; 
+ width: 150px;
+ height: 100px;
+ margin: 2;
 }
+
+img:hover {
+ transform: scale(1.5);
+}
+
+@media screen and (min-width: 320px) {
+
+ .photos a {
+  font-size: 8px;
+ }
+
+ .icons {
+  padding-left: 88%;
+  position: fixed;
+ }
+
+ img {
+  transition: transform .1s; 
+  width: 100px;
+  height: 85px;
+  margin: 6;
+ }
+
+ img:hover {
+  transform: scale(1.5);
+ }
+}
+
 
 @media screen and (min-width: 375px) {
 
@@ -67,6 +99,17 @@ img {
  .icons {
   padding-left: 88%;
   position: fixed;
+ }
+
+ img {
+  transition: transform .1s; 
+  width: 120px;
+  height: 100px;
+  margin: 2;
+}
+
+ img:hover {
+  transform: scale(1.5);
  }
 }
 
