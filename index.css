@@ -56,6 +56,19 @@ h2 {
   }
 }
 
+@media screen and (min-width: 320px) and (min-height: 240px) {
+
+  h1, h2 {
+    font-size: 18px;
+    top: 30%;
+  }
+
+  h2 {
+    font-size: 14px;
+    top: 38%;
+  }
+}
+
 @media screen and (min-width: 375px) {
 
   .icons {
@@ -83,21 +96,16 @@ h2 {
   }
 }
 
-@media screen and (min-width: 576px) {
+@media screen and (min-width: 540px) and (min-height: 900px) {
 
-  .nav-link {
-    font-size: 16px;
-    padding-top: 6%;
-  }
-
-  h1, h2 {
+  h1 {
     font-size: 30px;
-    top: 40%;
+    margin-top: 15%;
   }
 
   h2 {
     font-size: 20px;
-    top: 48%;
+    margin-top: 4%;
   }
 
   .icons {
@@ -106,20 +114,33 @@ h2 {
   }
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 540px) {
+
+  h1, h2 {
+    font-size: 30px;
+    top: 27%;
+  }
+
+  h2 {
+    font-size: 20px;
+    top: 40%;
+  }
+}
+
+@media screen and (min-width: 728px) {
 
   .nav-link {
     font-size: 20px;
   }
 
-  h1, h2 {
+  h1 {
     font-size: 35px;
-    top: 35%;
+    top: 25%;
   }
 
   h2 {
     font-size: 25px;
-    top: 40%;
+    top: 37%;
   }
   
   .icons {
