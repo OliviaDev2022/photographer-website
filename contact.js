@@ -1,5 +1,3 @@
-// DECLARATION DU FORMULAIRE  
-
 (function() {
  'use strict'
 
@@ -56,6 +54,7 @@ function validateEmail(input) {
 // VALIDATION DES CHAMPS DU FORMULAIRE 
 
 function validateFields(input) {
+  let fieldName = input.name;
 
  // Validaton de l'input NOM
  if (fieldName == "lastName") {
@@ -98,5 +97,29 @@ function validateFields(input) {
   }
 
   return (true);
+ }
+
+  // Validaton de l'input MESSAGE
+  if (fieldName == "message") {
+  if (!validateRequired(input)) {
+  return false;
+  }
+
+  if (!validateLength(input, 2, 300)) {
+  return false;
+  }
+
+  if (!validateText(input)) {
+  return false;
+  }
+  
+  return (true);
+
+ }
 }
+
+window.onbeforeunload = () => {
+  for(const form of document.getElementsByTagName('form')) {
+    form.reset();
+  }
 }
