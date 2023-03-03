@@ -91,6 +91,22 @@ h2, .card-footer{
  }
 }
 
+@media screen and (min-width: 540px) and (min-height: 320px) {
+
+ .logo {
+  height : 25vh;
+  width: 30vw;
+ }
+}
+
+@media screen and (min-width: 540px) and (min-height: 580px) {
+
+ .logo {
+  height : 15vh;
+  width: 30vw;
+ }
+}
+
 @media screen and (min-width: 576px) {
 
  .nav-link {
