@@ -53,6 +53,22 @@ body {
  }
 }
 
+@media screen and (min-width: 540px) and (min-height: 320px) {
+
+ .logo {
+  height : 25vh;
+  width: 30vw;
+ }
+}
+
+@media screen and (min-width: 540px) and (min-height: 580px) {
+
+ .logo {
+  height : 15vh;
+  width: 30vw;
+ }
+}
+
 @media screen and (min-width: 576px) { 
 
  .logo {
@@ -78,6 +94,30 @@ body {
  }
 }
 
+@media screen and (min-width: 640px) and (min-height: 360px) {
+
+ .logo {
+  height : 25vh;
+  width: 30vw;
+ }
+}
+
+@media screen and (min-width: 940px) and (min-height: 520px) {
+
+ .logo {
+  height : 30vh;
+  width: 30vw;
+ }
+}
+
+@media screen and (min-width: 768px) {
+
+ .logo {
+  height : 15vh;
+  width: 30vw;
+ }
+}
+
 @media screen and (min-width: 900px) { 
 
  .logo {
@@ -93,6 +133,14 @@ body {
  }
 }
 
+@media screen and (min-width: 920px) and (min-height: 420px) {
+
+ .logo {
+  height : 28vh;
+  width: 30vw;
+ }
+}
+
 @media screen and (min-width: 1024px) { 
 
  .nav-link {
@@ -102,7 +150,7 @@ body {
  .logo {
   margin-bottom: 10%;
   margin-top: 10%;
-  height : 12vh;
+  height : 20vh;
   width: 28vw;
  }
 
