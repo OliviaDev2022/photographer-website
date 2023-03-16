@@ -15,16 +15,10 @@ body {
  text-decoration: none;
 }
 
-.logo {
- position: relative;
- height : 10vh;
- width: 25vw;
-}
-
 h1 { 
- margin-top: 8%;
+ margin-top: 1%;
+ margin-bottom: 3%;
  font-size: 20px;
- padding-bottom: 1rem;
  color: black;
 }
 
@@ -64,11 +58,6 @@ h2, .card-footer{
 
 @media screen and (min-width: 428px) {
 
- .logo {
-  height : 10vh;
-  width: 30vw;
- }
-
  .card {
   max-width: 18rem;
  }
@@ -88,22 +77,6 @@ h2, .card-footer{
  .facebook, .instagram {
   width : 70%;
   height : 70%;
- }
-}
-
-@media screen and (min-width: 540px) and (min-height: 320px) {
-
- .logo {
-  height : 25vh;
-  width: 30vw;
- }
-}
-
-@media screen and (min-width: 540px) and (min-height: 580px) {
-
- .logo {
-  height : 15vh;
-  width: 30vw;
  }
 }
 
@@ -139,14 +112,6 @@ h2, .card-footer{
  }
 }
 
-@media screen and (min-width: 960px) {
-
- .logo {
-  height : 20vh;
-  width: 25vw;
- }
-}
-
 @media screen and (min-width: 1024px) {
 
  .nav-link {
@@ -172,12 +137,8 @@ h2, .card-footer{
 
  h1 {
   font-size: 30px;
-  margin-top: 5%;
- }
-
- .logo {
-  height : 25vh;
-  width: 25vw;
+  margin-top: 1%;
+  margin-bottom: 3%;
  }
 
  .facebook, .instagram {
@@ -194,10 +155,6 @@ h2, .card-footer{
  }
 
  .card-footer{
-  font-size: 22px;
- }
- 
- .card-footer {
   padding-bottom: 8%;
  }
 }
