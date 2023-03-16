@@ -14,13 +14,8 @@ body {
  text-decoration: none;
 }
 
-.logo {
- position: relative;
- margin-left: 35%;
- height : 10vh;
- width: 25vw;
- align-content: center;
- margin-bottom: 10%;
+.contact {
+ margin-top: 20%;
 }
 
 .icons {
@@ -47,36 +42,9 @@ body {
   bottom: 4%;
   margin-left: 85%;
  }
-
- .logo {
-  margin-bottom: 15%;
- }
-}
-
-@media screen and (min-width: 540px) and (min-height: 320px) {
-
- .logo {
-  height : 25vh;
-  width: 30vw;
- }
-}
-
-@media screen and (min-width: 540px) and (min-height: 580px) {
-
- .logo {
-  height : 15vh;
-  width: 30vw;
- }
 }
 
 @media screen and (min-width: 576px) { 
-
- .logo {
-  margin-bottom: 10%;
-  margin-top: 10%;
-  height : 14vh;
-  width: 35vw;
- }
 
  .nav-link {
   margin-top: 6%;
@@ -92,40 +60,13 @@ body {
   bottom: 4%;
   margin-left: 85%;
  }
-}
-
-@media screen and (min-width: 640px) and (min-height: 360px) {
-
- .logo {
-  height : 25vh;
-  width: 30vw;
- }
-}
-
-@media screen and (min-width: 940px) and (min-height: 520px) {
-
- .logo {
-  height : 30vh;
-  width: 30vw;
- }
-}
-
-@media screen and (min-width: 768px) {
-
- .logo {
-  height : 15vh;
-  width: 30vw;
- }
+ 
+ .contact {
+  margin-top: 10%;
+ } 
 }
 
 @media screen and (min-width: 900px) { 
-
- .logo {
-  margin-bottom: 5%;
-  margin-top: 5%;
-  height : 18vh;
-  width: 28vw;
- }
 
  .icons {
   bottom: 1%;
@@ -133,25 +74,10 @@ body {
  }
 }
 
-@media screen and (min-width: 920px) and (min-height: 420px) {
-
- .logo {
-  height : 28vh;
-  width: 30vw;
- }
-}
-
 @media screen and (min-width: 1024px) { 
 
  .nav-link {
   font-size: 18px;
- }
-
- .logo {
-  margin-bottom: 10%;
-  margin-top: 10%;
-  height : 20vh;
-  width: 28vw;
  }
 
  .icons {
@@ -165,19 +91,11 @@ body {
  }
 }
 
-
 @media screen and (min-width: 1200px) { 
 
  .nav-link {
   font-size: 18px;
   margin-top: 10%;
- }
-
- .logo {
-  margin-bottom: 5%;
-  margin-top: 4%;
-  height : 25vh;
-  width: 25vw;
  }
 
  .icons {
@@ -189,5 +107,9 @@ body {
  .facebook, .instagram {
   width : 100%;
   height : 100%;
+ }
+
+ .contact {
+  margin-top: 5%;
  }
 }
