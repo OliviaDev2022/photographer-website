@@ -12,7 +12,7 @@ body {
 }
 
 .text:first-of-type {                    
-  animation: showup 2s infinite;
+  animation: showup 4s infinite;
 }
 
 .text:last-of-type {
@@ -21,8 +21,8 @@ body {
 }
 
 h2 {
-  margin: left -5px;
-  animation: slidein 3s infinite;
+  margin: left -355px;
+  animation: slidein 4s infinite;
 }
 
 @keyframes showup {
