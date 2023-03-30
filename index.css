@@ -57,7 +57,7 @@ h2 {
 h1, h2 {
   position: absolute;  
   margin-top: 80%;
-  color: rgba(229, 255, 0, 0.742);
+  color: black;
   width: 100%;
   text-align: center;
   font-weight : 900;
@@ -121,13 +121,13 @@ h2 {
 @media screen and (min-width: 428px) {
 
   h1, h2 {
-    font-size: 32px;
-    margin-top: 115%;
+    font-size: 28px;
+    margin-top: 99%;
   }
 
   h2 {
-    font-size: 23px;
-    margin-top: 110%;
+    font-size: 21px;
+    margin-top: 93%;
   }
 
   .icons {
@@ -135,32 +135,58 @@ h2 {
   }
 
   .facebook, .instagram {
-    width: 90%;
-    height: 90%;
+    width: 80%;
+    height: 80%;
   }
 }
 
-@media screen and (min-width: 530px) {
+@media screen and (min-width: 540px) {
 
   h1, h2 {
-    font-size: 40px;
-    margin-top: 85%;
+    font-size: 32px;
+    margin-top: 50%;
   }
 
   h2 {
-    font-size: 32px;
-    top: 32%;
+    font-size: 25px;
+    top: 30%;
+  }
+}
+
+@media screen and (min-width: 560px) and (max-height: 320px) {
+
+  h1, h2 {
+    font-size: 24px;
+    margin-top: 18%;
+  }
+
+  h2 {
+    font-size: 20px;
+    top: 35%;
   }
 }
 
 @media screen and (min-width: 576px) {
 
   h1, h2 {
-    margin-top: 75%;
+    margin-top: 50%;
   }
 
   h2 {
-    top: 32%;
+    top: 30%;
+  }
+}
+
+@media screen and (min-width: 600px) and (max-height: 380px) {
+
+  h1, h2 {
+    font-size: 24px;
+    margin-top: 18%;
+  }
+
+  h2 {
+    font-size: 20px;
+    top: 35%;
   }
 }
 
@@ -201,6 +227,19 @@ h2 {
   }
 }
 
+@media screen and (min-width: 920px) and (max-height: 430px) {
+
+  h1, h2 {
+    font-size: 24px;
+    margin-top: 18%;
+  }
+
+  h2 {
+    font-size: 20px;
+    top: 36%;
+  }
+}
+
 @media screen and (min-width: 1024px) {
 
   h1 {
@@ -211,7 +250,6 @@ h2 {
   h2 {
     top: 40%;
     font-size: 30px;
-    color: rgba(229, 255, 0, 0.742);
   }
 
   .nav-link {
